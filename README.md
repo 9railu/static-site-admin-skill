@@ -1,4 +1,4 @@
-# static-local-admin
+# static-site-admin
 
 > Add a secure local admin UI to any static site — zero dependencies, single file.
 
@@ -97,6 +97,22 @@ scripts/server.crt
 ```
 
 The self-signed certificate is auto-regenerated on next startup if missing.
+
+## Claude Code Skill
+
+This repository also ships as a **[Claude Code](https://claude.ai/code) skill** — install it to let Claude set up the admin server in any project automatically.
+
+```bash
+# Install the skill
+git clone https://github.com/9railu/static-site-admin.git ~/.claude/skills/static-site-admin
+```
+
+Once installed, Claude will recognize requests like:
+- *"add a local admin panel to this site"*
+- *"I want to edit content from a browser UI"*
+- *"set up a local admin server"*
+
+…and copy + configure `template/admin.mjs` for your project.
 
 ## License
 
