@@ -1,0 +1,3 @@
+scripts/server.key
+scripts/server.crt
+node_modules/
