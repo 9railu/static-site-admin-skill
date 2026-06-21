@@ -1,4 +1,9 @@
-# static-site-admin
+# static-site-admin-skill
+
+[![Node.js 18+](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/9railu/static-site-admin-skill)](https://github.com/9railu/static-site-admin-skill/releases)
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 
 > Add a secure local admin UI to any static site — zero dependencies, single file.
 
@@ -104,7 +109,7 @@ This repository also ships as a **[Claude Code](https://claude.ai/code) skill** 
 
 ```bash
 # Install the skill
-git clone https://github.com/9railu/static-site-admin.git ~/.claude/skills/static-site-admin
+git clone https://github.com/9railu/static-site-admin-skill.git ~/.claude/skills/static-site-admin-skill
 ```
 
 Once installed, Claude will recognize requests like:
